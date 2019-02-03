@@ -5,6 +5,8 @@ namespace Normal_Mapping
 {
     class TextureObject2DWithNormalMapping : asd.TextureObject2D
     {
+        // TODO: 回転、伸縮、親子関係に対応
+
         /// <summary>
         /// 光源の座標を取得または設定します。
         /// </summary>
@@ -82,6 +84,5 @@ namespace Normal_Mapping
                 new asd.Vector2DF(0.0f, 1.0f),
                 _Material, asd.AlphaBlendMode.Opacity, 1);
         }
-
     }
 }
